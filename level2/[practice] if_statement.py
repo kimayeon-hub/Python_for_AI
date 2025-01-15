@@ -25,3 +25,57 @@ for num in range(10):
     else:
         print(f"{num} is 3n + 2")
 
+
+# 합격생들의 점수만 모으기
+import random
+
+n_students = 20
+threshold = 80
+scores = [random.randint(0, 100) for _ in range(n_students)]
+print(f"{scores = }")
+
+scores_pass = []
+for score in scores:
+    if score >= threshold:
+        scores_pass.append(score)
+print(f"{scores_pass = }")
+
+
+# 합격생과 불합격생의 평균점수 구하기
+import random
+
+n_students = 20
+threshold = 80
+scores = [random.randint(0, 100) for _ in range(n_students)]
+print(f"{scores = }\n")
+
+scores_pass, scores_fail = [], []
+for score in scores:
+    if score >= threshold:
+        scores_pass.append(score)
+    else:
+        scores_fail.append(score)
+print(f"{scores_pass = }")
+print(f"{scores_fail = }\n")
+
+score_pass_mean = sum(scores_pass) / len(scores_pass)
+score_fail_mean = sum(scores_fail) / len(scores_fail)
+print(f"{score_pass_mean = :.2f}")
+print(f"{score_fail_mean = :.2f}")
+
+
+# Prime Number
+num = int(input("Enter a number: "))
+
+IS_PRIME = True
+for divisor in range(2, num):
+    if num % divisor == 0:
+        IS_PRIME = False
+        break;
+
+if IS_PRIME:
+    print(f"{num} is a prime number")
+else:
+    print(f"{num} is not a prime number")
+
+
