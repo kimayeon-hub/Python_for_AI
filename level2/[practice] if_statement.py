@@ -79,3 +79,16 @@ else:
     print(f"{num} is not a prime number")
 
 
+# Prime Number (위의 코드보다 더 좋게 만들어 봄. for 문을 반복하는 횟수를 줄임)
+num = int(input("Enter a number: "))
+
+IS_PRIME = True
+for divisor in range(2, int(num**0.5)):
+    if num % divisor == 0:
+        IS_PRIME = False
+        break;
+
+if IS_PRIME:
+    print(f"{num} is a prime number")
+else:
+    print(f"{num} is not a prime number")
