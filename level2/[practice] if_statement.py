@@ -6,6 +6,7 @@ if score >= threshold:
 else:
     print("No Pass!")
 
+
 # 절댓값 구하기
 num = int(input("Enter a number: "))
 if num > 0:
@@ -13,6 +14,7 @@ if num > 0:
 else:
     abs_val = -num
 print(f"absolute value of {num} is {abs_val}")
+
 
 # 3n cycle을 구현
 for num in range(10):
@@ -22,3 +24,4 @@ for num in range(10):
         print(f"{num} is 3n + 1")
     else:
         print(f"{num} is 3n + 2")
+
