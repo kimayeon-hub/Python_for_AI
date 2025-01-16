@@ -62,3 +62,18 @@ score_pass_mean = sum(scores_pass) / len(scores_pass)
 score_fail_mean = sum(scores_fail) / len(scores_fail)
 print(f"{score_pass_mean = :.2f}")
 print(f"{score_fail_mean = :.2f}")
+
+
+# Prime Number
+num = int(input("Enter a number: "))
+
+IS_PRIME = True
+for divisor in range(2, num):
+    if num % divisor == 0:
+        IS_PRIME = False
+        break;
+
+if IS_PRIME:
+    print(f"{num} is a prime number")
+else:
+    print(f"{num} is not a prime number")
