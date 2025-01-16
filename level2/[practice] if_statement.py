@@ -5,3 +5,14 @@ if score >= threshold:
     print("Pass!")
 else:
     print("No Pass!")
+
+
+# 절댓값 구하기
+num = int(input("Enter a number: "))
+if num > 0:
+    abs_val = num
+else:
+    abs_val = -num
+print(f"absolute value of {num} is {abs_val}")
+
+
