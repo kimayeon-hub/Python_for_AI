@@ -14,10 +14,16 @@ print(f"{predictions = }\n")
 
 n_TP, n_TN = 0, 0
 for label, pred in zip(labels, predictions):
-    if label == pred:   # True
-        if label == 0:  # negative prediction
-            n_TN += 1
-        else:           # positive prediction
-            n_TP += 1
+    # if label == pred:   # True
+    #     if label == 0:  # negative prediction
+    #         n_TN += 1
+    #     else:           # positive prediction
+    #         n_TP += 1
+
+    if label == pred and label == 0:
+        n_TN += 1
+    elif label == pred and label == 1:
+        n_TP += 1
+
 print(f"{n_TP = }")
 print(f"{n_TN = }")
