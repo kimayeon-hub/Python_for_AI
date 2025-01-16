@@ -108,3 +108,16 @@ scores_fail = [score for score in scores if score < threshold]
 print(f"{scores_pass = }")
 print(f"{scores_fail = }")
 
+
+# 짝수, 홀수 구분하기 with list comprehension
+import random
+
+n_data = 100
+data = [random.randint(0, 100) for _ in range(n_data)]
+print(data, '\n')
+
+even_data = [d for d in data if d % 2 == 0]
+odd_data = [d for d in data if d % 2 == 1]
+print(f"{even_data = }")
+print(f"{odd_data = }")
+
