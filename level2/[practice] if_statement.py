@@ -16,3 +16,13 @@ else:
 print(f"absolute value of {num} is {abs_val}")
 
 
+# 3n cycle을 구현
+for num in range(10):
+    if num % 3 == 0:
+        print(f"{num} is 3n")
+    elif num % 3 == 1:
+        print(f"{num} is 3n + 1")
+    else:
+        print(f"{num} is 3n + 2")
+
+
