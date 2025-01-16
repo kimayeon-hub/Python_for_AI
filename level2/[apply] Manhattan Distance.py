@@ -13,8 +13,7 @@ print(f"{v = }")
 manhattan_dist = 0
 for u_el, v_el in zip(u, v):
     diff = u_el - v_el
-    if diff >= 0:
-        manhattan_dist += diff
-    else:
-        manhattan_dist += -diff
+    if diff < 0:
+        diff = -diff
+    manhattan_dist += diff
 print(f"{manhattan_dist = }")
