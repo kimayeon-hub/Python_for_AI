@@ -11,9 +11,9 @@ scores_sort = []
 
 while len(scores_tmp) != 0:
     # 최댓값의 인덱스 구하기
-    max_score, max_score_idx = scores_tmp[0], 0
+    max_score, max_score_idx = None, None
     for idx, score in enumerate(scores_tmp):
-        if score > max_score:
+        if max_score == None or score > max_score:
             max_score = score
             max_score_idx = idx
 
