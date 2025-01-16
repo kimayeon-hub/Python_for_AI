@@ -161,3 +161,19 @@ for score in scores:
         score_min = score
 print(f"{score_min = }")
 
+
+# 최댓값의 인덱스 구하기
+import random
+
+n_students = 10
+scores = [random.randint(0, 100) for _ in range(n_students)]
+print(f"{scores = }")
+
+score_max, score_max_index = scores[0], 0
+for idx, score in enumerate(scores):
+    if score > score_max:
+        score_max = score
+        score_max_index = idx
+print(f"{score_max = }")
+print(f"{score_max_index = }")
+
