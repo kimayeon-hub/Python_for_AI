@@ -146,3 +146,17 @@ for score in scores:
     if score > score_max:
         score_max = score
 print(f"{score_max = }")
+
+
+# 최솟값
+import random
+
+n_students = 10
+scores = [random.randint(0, 100) for _ in range(n_students)]
+print(f"{scores = }")
+
+score_min = scores[0]
+for score in scores:
+    if score < score_min:
+        score_min = score
+print(f"{score_min = }")
