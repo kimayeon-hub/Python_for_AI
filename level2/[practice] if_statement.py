@@ -141,7 +141,7 @@ n_students = 10
 scores = [random.randint(0, 100) for _ in range(n_students)]
 print(f"{scores = }")
 
-score_max = 0
+score_max = scores[0]
 for score in scores:
     if score > score_max:
         score_max = score
