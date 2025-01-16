@@ -24,3 +24,18 @@ for num in range(10):
         print(f"{num} is 3n + 1")
     else:
         print(f"{num} is 3n + 2")
+
+
+# 합격생들의 점수만 모으기
+import random
+
+n_students = 20
+threshold = 80
+scores = [random.randint(0, 100) for _ in range(n_students)]
+print(f"{scores = }")
+
+scores_pass = []
+for score in scores:
+    if score >= threshold:
+        scores_pass.append(score)
+print(f"{scores_pass = }")
