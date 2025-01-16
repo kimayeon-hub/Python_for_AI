@@ -92,3 +92,18 @@ if IS_PRIME:
     print(f"{num} is a prime number")
 else:
     print(f"{num} is not a prime number")
+
+
+# List Comprehension + If Statement
+import random
+
+n_students = 100
+threshold = 80
+
+scores = [random.randint(0, 100) for _ in range(n_students)]
+print(f"{scores = }\n")
+
+scores_pass = [score for score in scores if score >= threshold]
+scores_fail = [score for score in scores if score < threshold]
+print(f"{scores_pass = }")
+print(f"{scores_fail = }")
