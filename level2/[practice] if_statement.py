@@ -121,3 +121,15 @@ odd_data = [d for d in data if d % 2 == 1]
 print(f"{even_data = }")
 print(f"{odd_data = }")
 
+
+# Prime Number with list comprehension
+num = int(input("Enter a number: "))
+
+divisor_list = [divisor
+                for divisor in range(2, num)
+                if num % divisor == 0]
+if len(divisor_list) == 0:
+    print(f"{num} is a prime number")
+else:
+    print(f"{num} is not a prime number")
+
