@@ -14,9 +14,14 @@ print(f"{predictions = }\n")
 
 n_FP, n_FN = 0, 0
 for label, pred in zip(labels, predictions):
-    if label != pred:
-        if pred == 1: n_FP += 1
-        else: n_FN += 1
+    # if label != pred:
+    #     if pred == 1: n_FP += 1
+    #     else: n_FN += 1
+
+    if label != pred and pred == 1:
+        n_FP += 1
+    elif label != pred and pred == 0:
+        n_FN += 1
 
 print(f"{n_FP = }")
 print(f"{n_FN = }")
