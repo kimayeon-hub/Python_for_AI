@@ -15,5 +15,5 @@ for label, pred in zip(labels, predictions):
     else:   # False
         if pred == 0: n_FN += 1
         else: n_FP += 1
-print(f"{n_TP = } | {n_FP = }")
-print(f"{n_FN = } | {n_TN = }")
+print(f"{n_TP = } | {n_FN = }")
+print(f"{n_FP = } | {n_TN = }")
