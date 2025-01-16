@@ -132,3 +132,17 @@ if len(divisor_list) == 0:
     print(f"{num} is a prime number")
 else:
     print(f"{num} is not a prime number")
+
+
+# 최댓값
+import random
+
+n_students = 10
+scores = [random.randint(0, 100) for _ in range(n_students)]
+print(f"{scores = }")
+
+score_max = 0
+for score in scores:
+    if score > score_max:
+        score_max = score
+print(f"{score_max = }")
