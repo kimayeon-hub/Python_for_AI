@@ -14,3 +14,7 @@
   - boolean values
   - if statement
 
+#### ▶ 응용
+  - ReLU
+  - manhattan distance
+  - histogram
