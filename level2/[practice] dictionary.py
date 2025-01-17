@@ -62,5 +62,13 @@ print(max_min_dic, '\n')
 test_dic = {'a': 10}
 print(test_dic['a'])
 # print(test_dic['b'])  # key error가 발생하면 프로그램이 죽음
+print()
 
 
+# dictionary의 get 기능
+# 존재하는 key에 대해서는 value를 반환
+# 존재하지 않는 key에 대해서는 None을 반환
+test_dic = {'a': 10}
+print(test_dic.get('a'))
+print(test_dic.get('b'))
+print()
