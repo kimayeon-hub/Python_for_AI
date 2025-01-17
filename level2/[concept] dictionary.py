@@ -42,3 +42,39 @@ print(score_info['mean'])   # key를 사용해 검색 ((dictionary의 장점))
 print(score_info['var'])
 print(score_info['std'])
 print(score_info['max '])
+
+
+# dictionary에 원소 추가
+score_info = {}
+print(score_info)
+
+score_info['mean'] = 10
+print(score_info)
+
+score_info['var'] = 100
+print(score_info, '\n')
+
+
+# dictionary의 get 기능
+# 존재하는 key에 대해서는 value를 반환
+# 존재하지 않는 key에 대해서는 None을 반환
+test_dic = {'a': 10}
+print(test_dic.get('a'))
+print(test_dic.get('b'), '\n')
+
+
+# get의 default 값 설정
+# 존재하지 않는 key에 대해서는 default 값을 반환
+test_dict = {'a': 10}
+print(test_dict.get('a', 100))
+print(test_dict.get('b', 100), '\n')
+
+
+# dictionary comprehension
+keys = ['a', 'b', 'c', 'd', 'e']
+values = [i for i in range(5)]
+print(keys)
+print(values)
+
+test_dict = {key: value for key, value in zip(keys, values)}
+print(test_dict, '\n')
