@@ -1,14 +1,3 @@
-# dictionary에 원소 추가
-score_info = {}
-print(score_info)
-
-score_info['mean'] = 10
-print(score_info)
-
-score_info['var'] = 100
-print(score_info, '\n')
-
-
 # scores의 정보들을 dictionary에 저장하기
 import random
 
@@ -65,21 +54,6 @@ print(test_dic['a'])
 print()
 
 
-# dictionary의 get 기능
-# 존재하는 key에 대해서는 value를 반환
-# 존재하지 않는 key에 대해서는 None을 반환
-test_dic = {'a': 10}
-print(test_dic.get('a'))
-print(test_dic.get('b'), '\n')
-
-
-# get의 default 값 설정
-# 존재하지 않는 key에 대해서는 default 값을 반환
-test_dict = {'a': 10}
-print(test_dict.get('a', 100))
-print(test_dict.get('b', 100), '\n')
-
-
 # dictionary + for loop
 test_dict = {'a': 0, 'b': 1, 'c': 2}
 
@@ -92,13 +66,25 @@ for key, value in test_dict.items():    # items()를 사용해 key와 value를 �
 print()
 
 
-# dictionary comprehension
-keys = ['a', 'b', 'c', 'd', 'e']
-values = [i for i in range(5)]
-print(keys)
-print(values)
+# 합격생, 불합격생의 평균 구하기
+import random
 
-test_dict = {key: value for key, value in zip(keys, values)}
-print(test_dict, '\n')
+n_students = 100
+threshold = 80
+scores = [random.randint(0, 100) for _ in range(n_students)]
 
+# score_dict 초기화하기
+score_dict = {key:0 for key in ['pass_sum', 'fail_sum', 'pass_cnt', 'fail_cnt']}
+print(score_dict)
 
+for score in scores:
+    if score >= threshold:
+        score_dict['pass_sum'] += score
+        score_dict['pass_cnt'] += 1
+    else:
+        score_dict['fail_sum'] += score
+        score_dict['fail_cnt'] += 1
+score_dict['pass_mean'] = score_dict['pass_sum'] / score_dict['pass_cnt']
+score_dict['fail_mean'] = score_dict['fail_sum'] / score_dict['fail_cnt']
+print(f"{score_dict['pass_mean'] = :.2f}")
+print(f"{score_dict['fail_mean'] = :.2f}\n")
