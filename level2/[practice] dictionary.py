@@ -90,3 +90,15 @@ print()
 for key, value in test_dict.items():    # items()를 사용해 key와 value를 한 번에 뽑기
     print(f"{key} - {value}")
 print()
+
+
+# dictionary comprehension
+keys = ['a', 'b', 'c', 'd', 'e']
+values = [i for i in range(5)]
+print(keys)
+print(values)
+
+test_dict = {key: value for key, value in zip(keys, values)}
+print(test_dict, '\n')
+
+
