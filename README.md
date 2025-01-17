@@ -2,6 +2,7 @@
   <body>
     <h1>Python for AI</h1>
     <br>
+    <h3>Python을 왜 배우는가?</h3>
     <h5>
       인공지능은 Python을 사용하여 개발하는 경우가 많습니다.
     </h5>
