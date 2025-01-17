@@ -61,4 +61,6 @@ print(max_min_dic, '\n')
 # 존재하지 않는 key에 대한 오류
 test_dic = {'a': 10}
 print(test_dic['a'])
-# print(test_dic['b'])
+# print(test_dic['b'])  # key error가 발생하면 프로그램이 죽음
+
+
