@@ -71,3 +71,10 @@ print()
 test_dic = {'a': 10}
 print(test_dic.get('a'))
 print(test_dic.get('b'), '\n')
+
+
+# get의 default 값 설정
+# 존재하지 않는 key에 대해서는 default 값을 반환
+test_dict = {'a': 10}
+print(test_dict.get('a', 100))
+print(test_dict.get('b', 100))
