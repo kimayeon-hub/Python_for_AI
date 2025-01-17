@@ -70,5 +70,4 @@ print()
 # 존재하지 않는 key에 대해서는 None을 반환
 test_dic = {'a': 10}
 print(test_dic.get('a'))
-print(test_dic.get('b'))
-print()
+print(test_dic.get('b'), '\n')
