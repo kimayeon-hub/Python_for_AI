@@ -80,3 +80,13 @@ print(test_dict.get('a', 100))
 print(test_dict.get('b', 100), '\n')
 
 
+# dictionary + for loop
+test_dict = {'a': 0, 'b': 1, 'c': 2}
+
+for key in test_dict:   # for loop에 dictionary를 사용하면 key 값이 나옴
+    print(key)
+print()
+
+for key, value in test_dict.items():    # items()를 사용해 key와 value를 한 번에 뽑기
+    print(f"{key} - {value}")
+print()
