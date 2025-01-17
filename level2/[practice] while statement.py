@@ -8,4 +8,3 @@ while cum_sum <= threshold_sum:
     i += 1
     print(f"{i} - {cum_sum}")
 
-
