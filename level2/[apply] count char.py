@@ -66,7 +66,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 cnt_dict = {}
 for char in test_string:
-    if char == ' ':     # space(공백)은 문자로 인식하지 않게 수정
+    if char in [' ', "'", 'e']:     # 얘네들은 문자로 인식하지 않게 수정
         continue
     cnt_dict[char] = cnt_dict.get(char, 0) + 1
 
