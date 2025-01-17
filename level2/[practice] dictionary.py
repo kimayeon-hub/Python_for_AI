@@ -88,3 +88,20 @@ score_dict['pass_mean'] = score_dict['pass_sum'] / score_dict['pass_cnt']
 score_dict['fail_mean'] = score_dict['fail_sum'] / score_dict['fail_cnt']
 print(f"{score_dict['pass_mean'] = :.2f}")
 print(f"{score_dict['fail_mean'] = :.2f}\n")
+
+
+# 합격생, 불합격생의 평균 구하기 2
+import random
+
+n_students = 100
+threshold = 80
+scores = [random.randint(0, 100) for _ in range(n_students)]
+
+# 합격생들의 점수와 불합격생들의 점수 list로 저장
+score_dict = {'pass_scores': [score for score in scores if score >= threshold],
+              'fail_scores': [score for score in scores if score < threshold]}
+print(score_dict)
+
+score_dict['pass_mean'] = sum(score_dict['pass_scores']) / len(score_dict['pass_scores'])
+score_dict['fail_mean'] = sum(score_dict['fail_scores']) / len(score_dict['fail_scores'])
+print(score_dict, '\n')
