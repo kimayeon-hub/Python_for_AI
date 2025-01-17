@@ -57,3 +57,8 @@ for score_idx, score in enumerate(scores):
 print(max_min_dic, '\n')
 
 
+# key error
+# 존재하지 않는 key에 대한 오류
+test_dic = {'a': 10}
+print(test_dic['a'])
+# print(test_dic['b'])
