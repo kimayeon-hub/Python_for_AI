@@ -29,3 +29,11 @@ while True:
     cum_sum += i
     i += 1
     print(f"{i} - {cum_sum}")
+
+
+# 유저한테 프로그램 종료시키기
+while True:
+    user_input = input("q to quit: ")
+    print(user_input)
+    if user_input == 'q':
+        break
