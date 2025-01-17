@@ -77,4 +77,6 @@ print(test_dic.get('b'), '\n')
 # 존재하지 않는 key에 대해서는 default 값을 반환
 test_dict = {'a': 10}
 print(test_dict.get('a', 100))
-print(test_dict.get('b', 100))
+print(test_dict.get('b', 100), '\n')
+
+
