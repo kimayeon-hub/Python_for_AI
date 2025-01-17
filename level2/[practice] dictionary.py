@@ -6,7 +6,7 @@ score_info['mean'] = 10
 print(score_info)
 
 score_info['var'] = 100
-print(score_info)
+print(score_info, '\n')
 
 
 # scores의 정보들을 dictionary에 저장하기
@@ -36,4 +36,24 @@ score_info['max_idx'] = max_score_idx
 score_info['min'] = min_score
 score_info['min_idx'] = min_score_idx
 
-print(score_info)
+print(score_info, '\n')
+
+
+# 최댓값, 최솟값 구하기 with dictionary
+import random
+
+n_students = 10
+scores = [random.randint(0, 100) for _ in range(n_students)]
+print(f"{scores = }")
+
+max_min_dic = {'max': None, 'max_idx': None, 'min': None, 'min_idx': None}
+for score_idx, score in enumerate(scores):
+    if max_min_dic['max'] == None or score > max_min_dic['max']:
+        max_min_dic['max'] = score
+        max_min_dic['max_idx'] = score_idx
+    elif max_min_dic['min'] == None or score < max_min_dic['min']:
+        max_min_dic['min'] = score
+        max_min_dic['min_idx'] = score_idx
+print(max_min_dic, '\n')
+
+
