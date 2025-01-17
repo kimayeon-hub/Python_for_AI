@@ -66,6 +66,8 @@ Namespaces are one honking great idea -- let's do more of those!
 
 cnt_dict = {}
 for char in test_string:
+    if char == ' ':     # space(공백)은 문자로 인식하지 않게 수정
+        continue
     cnt_dict[char] = cnt_dict.get(char, 0) + 1
 
 max_char, max_freq = None, None
@@ -79,3 +81,5 @@ for char, freq in cnt_dict.items():
         min_freq = freq
 print(f"{max_char = } | {max_freq = }")
 print(f"{min_char = } | {min_freq = }")
+
+
