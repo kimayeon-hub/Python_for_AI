@@ -1,5 +1,6 @@
 # Learning Python Basic Grammar
 
+python의 기초 문법을 배우며, 머신러닝이나 딥러닝에서 사용하는 알고리즘을 배운 문법들로 구현하였습니다.
 
 ## 배운 문법
 - input function
