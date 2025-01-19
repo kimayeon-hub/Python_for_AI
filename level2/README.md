@@ -75,13 +75,13 @@ python의 기초 문법을 배우고, 머신러닝이나 딥러닝에서 사용�
 </details>
 
 ## 배운 문법 응용하기
-- accuray for binary classification
-- confusion matrix
-- manhattan distance
-- ReLU
-- argsorting
-- count char
-- histogram
-- making absolute value
-- sort in ascending order
-- sort in descending order
+- [accuray for binary classification](https://github.com/kimayeon-hub/Python_for_AI/blob/master/level2/%5Bapply%5D%20Accuracy%20for%20Binary%20Classification.py)
+- [confusion matrix](https://github.com/kimayeon-hub/Python_for_AI/blob/master/level2/%5Bapply%5D%20Confusion%20Matrix.py)
+- [manhattan distance](https://github.com/kimayeon-hub/Python_for_AI/blob/master/level2/%5Bapply%5D%20Manhattan%20Distance.py)
+- [ReLU](https://github.com/kimayeon-hub/Python_for_AI/blob/master/level2/%5Bapply%5D%20ReLU.py)
+- [argsorting](https://github.com/kimayeon-hub/Python_for_AI/blob/master/level2/%5Bapply%5D%20argsorting.py)
+- [counting char](https://github.com/kimayeon-hub/Python_for_AI/blob/master/level2/%5Bapply%5D%20count%20char.py)
+- [histogram](https://github.com/kimayeon-hub/Python_for_AI/blob/master/level2/%5Bapply%5D%20histogram.py)
+- [making absolute value](https://github.com/kimayeon-hub/Python_for_AI/blob/master/level2/%5Bapply%5D%20making_absolute_value.py)
+- [sort in ascending order](https://github.com/kimayeon-hub/Python_for_AI/blob/master/level2/%5Bapply%5D%20sort%20in%20ascending%20order.py)
+- [sort in descending order](https://github.com/kimayeon-hub/Python_for_AI/blob/master/level2/%5Bapply%5D%20sort%20in%20descending%20order.py)
