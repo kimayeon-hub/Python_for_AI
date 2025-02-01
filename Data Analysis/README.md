@@ -6,8 +6,8 @@
 
 # 데이터 분석 전과정
 <details>
-  <summary>데이터 수집 (2, 3, 4, 과정을 배우고 이거 배우면 될 듯)</summary>
-  
+  <summary>데이터 수집 <span style="color: Blue"> 2, 3, 4 과정을 배우고 이거 배우면 될 듯 </span> </summary>
+
   - 인터넷(크롤링)
   - 데이터베이스(SQL, NoSQL)
   - Open API
