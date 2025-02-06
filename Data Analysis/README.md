@@ -8,33 +8,33 @@
 <details>
   <summary>데이터 수집 (2, 3, 4 과정을 배우고 이거 배우면 될 듯) </summary>
 
-  - 인터넷(크롤링)
-  - 데이터베이스(SQL, NoSQL)
-  - Open API
-  - 파일
+  > - 인터넷(크롤링)
+  > - 데이터베이스(SQL, NoSQL)
+  > - Open API
+  > - 파일
 </details>
 
 <details>
   <summary>데이터 구조화</summary>
 
-  - JSON
-  - CSV
-  - XML
-  - Plain Text
+  > - JSON
+  > - CSV
+  > - XML
+  > - Plain Text
 </details>
 
 <details>
   <summary>데이터 전처리</summary>
 
-  - python
-  - pandas
+  > - python
+  > - pandas
 </details>
 
 <details>
   <summary>데이터 분석</summary>
 
-  - 데이터 분석(EDA)
-  - 데이터 시각화
+  > - 데이터 분석(EDA)
+  > - 데이터 시각화
 </details>
 
 
