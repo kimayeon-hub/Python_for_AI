@@ -43,7 +43,7 @@
 - 실제 현업 예제를 기반으로 실습하며 필요한 기술 익히기
 - 원본 데이터부터 데이터 분석까지 단계별 실습을 통해 전과정 학습
 
-# 파일
+# 학습 내용
 - 데이터 구조화
   - [data formats](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/data%20formats)
 - 데이터 전처리:
