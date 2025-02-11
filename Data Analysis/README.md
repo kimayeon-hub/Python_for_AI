@@ -48,3 +48,5 @@
   - [data formats](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/data%20formats)
 - 데이터 전처리:
   - [pandas basic](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/Pandas%20Basic)
+- 데이터 분석:
+  - [pandas EDA basic](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Pandas%20EDA%20Basic/Pandas%20EDA%20Basic.ipynb)
