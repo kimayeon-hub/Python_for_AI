@@ -44,4 +44,7 @@
 - 원본 데이터부터 데이터 분석까지 단계별 실습을 통해 전과정 학습
 
 # 파일
-- 데이터 구조화: [data formats](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/data%20formats)
+- 데이터 구조화
+  - [data formats](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/data%20formats)
+- 데이터 전처리:
+  - [pandas basic](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/Pandas%20Basic)
