@@ -3,7 +3,7 @@ pandas 기본 문법과 탐색적 데이터 분석 이해 및 활용하기
 
 # 학습 내용
 - [pandas Series 기본](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Pandas%20Basic/Pandas%20Series%20basic.ipynb)
-- pandas Dataframe 기본
+- [pandas Dataframe 기본](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Pandas%20Basic/Pandas%20Dataframe%20basic.ipynb)
 
 # pandas 라이브러리란?
 - 테이블형 데이터를 다룰 수 있는 다양한 기능을 가진 라이브러리
