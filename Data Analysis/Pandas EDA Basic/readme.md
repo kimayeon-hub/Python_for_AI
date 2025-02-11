@@ -2,7 +2,7 @@
 탐색적 데이터 분석의 이해와 데이터 분석 기본 패턴 익숙해지기
 
 # 학습 내용
-- EDA 기본 패턴 적용을 위한 pandas 관련 문법 활용
+- [EDA 기본 패턴 적용을 위한 pandas 관련 문법 활용](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Pandas%20EDA%20Basic/Pandas%20EDA%20Basic.ipynb)
 
 # 탐색적 데이터 분석이란?
 - EDA (Exploratory Data Analysis) 라고 함
