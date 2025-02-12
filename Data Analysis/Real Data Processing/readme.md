@@ -12,6 +12,7 @@
 - 다양한 시작화 기법 중, 흥미로운 데이터 시각화 과정을 진행해보기로 함
   - https://app.flourish.studio
   - https://public.flourish.studio/visualisation/2897018/
+ <br>
  
   > 지금까지 익힌 데이터 처리 기술을 기반으로 데이터 시각화를 위해, raw data를 포맷에 맞추어 변환하여 그래프를 만들어 보기로 함
   <img src="https://www.fun-coding.org/00_Images/covid_graph_ex2.jpg" />
@@ -24,4 +25,6 @@
   >  - 국가명
   >  - 국기
   >  - 날짜별 확진자 수
+<img src="https://www.fun-coding.org/00_Images/covid_ex_data_format.jpg" />
 
+  > 이 형식으로 데이터를 변환시킬 것!
