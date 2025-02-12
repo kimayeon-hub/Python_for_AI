@@ -14,8 +14,9 @@
   - https://public.flourish.studio/visualisation/2897018/
  <br>
  
-  > 지금까지 익힌 데이터 처리 기술을 기반으로 데이터 시각화를 위해, raw data를 포맷에 맞추어 변환하여 그래프를 만들어 보기로 함
   <img src="https://www.fun-coding.org/00_Images/covid_graph_ex2.jpg" />
+
+  > 지금까지 익힌 데이터 처리 기술을 기반으로 데이터 시각화를 위해, raw data를 포맷에 맞추어 변환하여 그래프를 만들어 보기로 함
 
 ### 데이터 시각화를 위한 데이터 포맷 이해
 - 데이터 시각화를 위해, raw data를 변환해야 함
