@@ -6,14 +6,15 @@
 
 # 학습 내용
 - 데이터 구조화
-  - [data formats](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/data%20formats)
+  - [데이터 분석을 위한 다양한 데이터 포맷 이해와 파이썬 활용](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/data%20formats)
 - 데이터 전처리:
   - [pandas basic](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/Pandas%20Basic)
-  - [pandas library](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/Pandas%20Library)
-  - [real data processing](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/Real%20Data%20Processing)
+  - [데이터 전처리를 위한 pandas 라이브러리 사용법 익히기](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/Pandas%20Library)
+  - [실전 파이썬 데이터 전처리로 코로나 현황 이해하기](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/Real%20Data%20Processing)
 - 데이터 분석:
-  - [pandas EDA basic](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Pandas%20EDA%20Basic)
-  - [using the visualization library](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/Using%20the%20Visualization%20Library)
+  - [pandas 기본 문법과 탐색적 데이터 분석 이해 및 활용](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Pandas%20EDA%20Basic)
+  - [데이터 분석을 위한 시각화 라이브러리 사용법](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/Using%20the%20Visualization%20Library)
+  - [이커머스 데이터, 실제 데이터 분석하기](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/E-commerce%20Data%20Analysis)
 
  
 # 학습 방법
