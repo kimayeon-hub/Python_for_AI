@@ -4,7 +4,7 @@
 # 학습 내용
 - 가장 빠른 시각화 라이브러리 사용법 이해 (iplot)
 - 디테일하고 가장 이쁜 시각화 라이브러리 사용법 이해 ([plotly.graph_objects](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Using%20the%20Visualization%20Library/plotly.graph_objects.ipynb))
-- EDA와 데이터 타입에 따른 시각화 기법1
+- [데이터 분석 이론과 탐색적 데이터 분석]()
 - EDA와 데이터 타입에 따른 시각화 기법2
 - EDA와 데이터 타입에 따른 시각화 기법3
 - EDA와 데이터 타입에 따른 시각화 기법4
