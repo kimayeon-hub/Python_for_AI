@@ -4,6 +4,7 @@
 # 학습 내용
 - [pandas 라이브러리로 실제 데이터 전처리하기](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Real%20Data%20Processing/Real%20Data%20Processing%20with%20pandas.ipynb)
 - 최종 전처리 데이터로 그래프 만들기
+- 만든 결과물: https://public.flourish.studio/visualisation/21606865/
 
 # 이 학습을 위한 기초 정보
 ### 데이터 시각화란?
