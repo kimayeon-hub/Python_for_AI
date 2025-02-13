@@ -5,7 +5,7 @@
 - 가장 빠른 시각화 라이브러리 사용법 이해 (iplot)
 - 디테일하고 가장 이쁜 시각화 라이브러리 사용법 이해 ([plotly.graph_objects](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Using%20the%20Visualization%20Library/plotly.graph_objects.ipynb))
 - [수치형 데이터와 범주형 데이터](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Using%20the%20Visualization%20Library/numerical%20type%20data%20and%20categorical%20data.ipynb)
-- [테이블 데이터와 시계열 데이터]()
+- [테이블 데이터와 시계열 데이터](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Using%20the%20Visualization%20Library/Table%20data%20and%20time%20series%20data.ipynb)
 - EDA와 데이터 타입에 따른 시각화 기법5
 
 # 학습 내용 정리
