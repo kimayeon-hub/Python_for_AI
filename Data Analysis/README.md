@@ -16,7 +16,9 @@
   - [탐색적 데이터 분석의 이해와 데이터 분석 기본 패턴 익숙해지기](https://github.com/kimayeon-hub/Python_for_AI/blob/master/Data%20Analysis/Pandas%20EDA%20Basic)
   - [이커머스 데이터, 실제 데이터 분석하기](https://github.com/kimayeon-hub/Python_for_AI/tree/master/Data%20Analysis/E-commerce%20Data%20Analysis)
 
- 
+<br>
+<br>
+
 # 학습 방법
 - 가장 핫한 이커머스 데이터로 데이터와 도메인 이해
 - 실제 현업 예제를 기반으로 실습하며 필요한 기술 익히기
